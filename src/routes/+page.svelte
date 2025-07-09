@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '../components/footer.svelte';
   import Contdown from '../components/sections/contdown.svelte';
   import Date from '../components/sections/date.svelte';
   import Fest from '../components/sections/fest.svelte';
@@ -23,3 +24,4 @@
 <Fest />
 <Gift />
 <Instagram />
+<Footer />
