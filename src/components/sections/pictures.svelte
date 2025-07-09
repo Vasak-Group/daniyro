@@ -3,7 +3,6 @@
   import Autoplay from "embla-carousel-autoplay";
 
   import curvasIMG from "../../assets/img/curvas02.svg";
-  import lineasIMG from "../../assets/img/lineas02.svg";
   import carousel01 from "../../assets/img/carousel/1.jpg";
   import carousel02 from "../../assets/img/carousel/2.jpg";
   import carousel03 from "../../assets/img/carousel/3.jpg";
@@ -26,7 +25,7 @@
 </script>
 
 <section
-  class="relative h-80 mt-10 bg-white flex justify-center align-items-center"
+  class="relative h-[80%] mt-10 bg-white flex justify-center align-items-center"
 >
   <img
     class="absolute bg-center -top-[85px] md:-top-[135px] lg:-top-[180px] xl:-top-[220px] z-0 w-full"
@@ -217,9 +216,9 @@
         >
       </div>
 
-      <div class="mt-10 bg-white">
+      <div class="pt-10 inline-block w-full">
         <div class="embla" use:emblaCarouselSvelte={{ options, plugins }}>
-          <div class="embla__container">
+          <div class="flex">
             {#each slides as slide}
               <div class="embla__slide p-10">
                 <div class="p-4 bg-[#f5f5f5] pb-24 shadow-lg rounded">
@@ -237,9 +236,6 @@
 <style>
   .embla {
     overflow: hidden;
-  }
-  .embla__container {
-    display: flex;
   }
   .embla__slide {
     flex: 0 0 33%;
