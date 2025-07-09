@@ -3,6 +3,7 @@
   import Date from '../components/sections/date.svelte';
   import Fest from '../components/sections/fest.svelte';
   import Fontpage from '../components/sections/fontpage.svelte';
+  import Gift from '../components/sections/gift.svelte';
   import Pictures from '../components/sections/pictures.svelte';
 </script>
 
@@ -19,4 +20,4 @@
 <Date />
 <Pictures />
 <Fest />
-
+<Gift />
