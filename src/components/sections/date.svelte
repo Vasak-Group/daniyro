@@ -133,7 +133,7 @@
       </div>
 
       <h3
-        class="font-heading text-white bg-secondary inline-block relative font-normal text-5xl min-w-[60%] mt-8"
+        class="font-heading text-white bg-secondary border-y-4 border-secondary inline-block relative font-normal text-5xl min-w-[60%] mt-8"
       >
         <img
           src={cintaLIMG}
@@ -479,7 +479,7 @@
       </div>
 
       <h3
-        class="font-heading text-white bg-secondary inline-block relative font-normal text-5xl min-w-[60%] mt-8"
+        class="font-heading text-white bg-secondary border-y-4 border-secondary inline-block relative font-normal text-5xl min-w-[60%] mt-8"
       >
         <img
           src={cintaLIMG}
