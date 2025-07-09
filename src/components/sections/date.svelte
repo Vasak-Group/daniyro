@@ -11,7 +11,7 @@
   <img src="{linesIMG}" alt="Decorative lines" class="absolute top-0 left-0 w-full h-auto mt-30" />
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px] adorno-1"
+      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
       alt=""
       loading="lazy"
@@ -20,7 +20,7 @@
 
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px] adorno-2"
+      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
       alt=""
       loading="lazy"
@@ -29,7 +29,7 @@
 
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px] adorno-3"
+      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
       alt=""
       loading="lazy"
