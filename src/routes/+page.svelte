@@ -4,6 +4,7 @@
   import Fest from '../components/sections/fest.svelte';
   import Fontpage from '../components/sections/fontpage.svelte';
   import Gift from '../components/sections/gift.svelte';
+  import Instagram from '../components/sections/instagram.svelte';
   import Pictures from '../components/sections/pictures.svelte';
 </script>
 
@@ -21,3 +22,4 @@
 <Pictures />
 <Fest />
 <Gift />
+<Instagram />

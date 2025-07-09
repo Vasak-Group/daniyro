@@ -52,6 +52,6 @@
       />
     </div>
 
-    <a href="#" class="bg-tertiary w-auto text-white uppercase rounded-full font-bold px-6 py-4 text-[15px] mt-8">Ver más</a>
+    <a href="#" class="bg-tertiary w-auto text-white uppercase rounded-full font-bold px-6 py-4 text-[15px] mt-8 inline-block">Ver más</a>
   </div>
 </section>
