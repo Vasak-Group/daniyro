@@ -12,7 +12,7 @@
 
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+      class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
       alt=""
       loading="lazy"
@@ -21,7 +21,7 @@
 
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+      class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
       alt=""
       loading="lazy"
@@ -30,7 +30,7 @@
 
   <picture>
     <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+      class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
       alt=""
       loading="lazy"
