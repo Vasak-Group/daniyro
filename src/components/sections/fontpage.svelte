@@ -8,14 +8,6 @@
 <!-- Portada -->
 <section class="w-full pb-50 bg-cover relative">
   <picture>
-    <source
-      type="image/webp"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.webp"
-    />
-    <source
-      type="image/png"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.png"
-    />
     <img
       class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[1]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.png"
@@ -25,14 +17,6 @@
   </picture>
 
   <picture>
-    <source
-      type="image/webp"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.webp"
-    />
-    <source
-      type="image/png"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.png"
-    />
     <img
       class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[2]"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.png"
@@ -42,14 +26,6 @@
   </picture>
 
   <picture>
-    <source
-      type="image/webp"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.webp"
-    />
-    <source
-      type="image/png"
-      srcset="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.png"
-    />
     <img
       class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto"
       src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.png"

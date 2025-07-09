@@ -1,5 +1,8 @@
 <script lang="ts">
   import linesIMG from "../../assets/img/lineas02.svg";
+  import musicIcon from "../../assets/icons/music.gif";
+  import dressIcon from "../../assets/icons/kimono.gif";
+  import infoIcon from "../../assets/icons/document.gif";
 
   const items = [
     {
@@ -7,19 +10,19 @@
       description:
         "¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?",
       buttonText: "Sugerir canción",
-      iconSrc: "https://fixdate.io/modelo-invitacion/65/img/Grupo03.png",
+      iconSrc: musicIcon,
     },
     {
       title: "Dress Code",
       description: "Una orientación para tu vestuario",
       buttonText: "Ver Más",
-      iconSrc: "https://fixdate.io/modelo-invitacion/65/img/Grupo04.png",
+      iconSrc: dressIcon,
     },
     {
       title: "Tips y Notas",
       description: "Información adicional para tener en cuenta",
       buttonText: "+ Info",
-      iconSrc: "https://fixdate.io/modelo-invitacion/65/img/Grupo05.png",
+      iconSrc: infoIcon,
     },
   ];
 </script>
