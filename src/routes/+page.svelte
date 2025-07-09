@@ -1,6 +1,8 @@
 <script lang="ts">
   import Contdown from '../components/sections/contdown.svelte';
+  import Date from '../components/sections/date.svelte';
   import Fontpage from '../components/sections/fontpage.svelte';
+  import Pictures from '../components/sections/pictures.svelte';
 </script>
 
 <!-- Background -->
@@ -13,4 +15,6 @@
 
 <Fontpage />
 <Contdown />
+<Date />
+<Pictures />
 
