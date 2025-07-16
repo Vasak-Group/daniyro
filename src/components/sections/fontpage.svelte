@@ -54,8 +54,7 @@
             alt=""
           /> <br />
 
-          Todos somos mortales, <br /> hasta el primer beso y la segunda copa de
-          vino <br />
+          El amor es la razón de este día <br />
 
           <img
             class="inline-block w-8 h-8 my-2.5"

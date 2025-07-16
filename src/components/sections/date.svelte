@@ -37,8 +37,8 @@
     loading="lazy"
   />
 
-  <div class="flex flex-wrap px-6 md:px-24 w-full z-10">
-    <div
+  <div class="flex flex-wrap px-6 md:px-24 w-full z-10 content-center justify-center">
+    <!--<div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
     >
       <div
@@ -106,7 +106,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
@@ -137,7 +137,7 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Día</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Sábado 15 de Mayo - 20hs
+            Sábado 20 de Octubre - 18hs
           </p>
           <a
             href="#"
@@ -151,7 +151,7 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Lugar</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            PSalon de fiestas Avril
+            Quinta San José Eventos
           </p>
           <a
             href="#"
@@ -165,10 +165,10 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Dirección</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Av. Los Reartes 12 - BsAs
+            Calle 361 1573 - Ranelagh
           </p>
           <a
-            href="#"
+            href="https://maps.app.goo.gl/RcZny9wHSzPhq5CH9"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
