@@ -1,8 +1,7 @@
 <script lang="ts">
   import loveIcon from "../assets/icons/lovew.gif";
 
-  const he = "Dani";
-  const she = "Rocio";
+  const { he, she } = $props();
 </script>
 
 <section class="w-full pb-20 bg-white relative">

@@ -1,12 +1,16 @@
 <script lang="ts">
-  import Footer from '../components/footer.svelte';
-  import Contdown from '../components/sections/contdown.svelte';
-  import Date from '../components/sections/date.svelte';
-  import Fest from '../components/sections/fest.svelte';
-  import Fontpage from '../components/sections/fontpage.svelte';
-  import Gift from '../components/sections/gift.svelte';
-  import Instagram from '../components/sections/instagram.svelte';
-  import Pictures from '../components/sections/pictures.svelte';
+  import Footer from "../components/footer.svelte";
+  import Contdown from "../components/sections/contdown.svelte";
+  import DateSection from "../components/sections/date.svelte";
+  import Fest from "../components/sections/fest.svelte";
+  import Fontpage from "../components/sections/fontpage.svelte";
+  import Gift from "../components/sections/gift.svelte";
+  import Instagram from "../components/sections/instagram.svelte";
+  import Pictures from "../components/sections/pictures.svelte";
+
+  const he = "Daniel";
+  const she = "Rocio";
+  const date = new Date("2025-11-15");
 </script>
 
 <!-- Background -->
@@ -14,14 +18,15 @@
   <img
     class="h-screen w-screen object-cover absolute top-0 left-0 z-[-100]"
     src="https://fixdate.io/modelo-invitacion/65/img/fondo.webp"
+    alt="Background paper"
   />
 </div>
 
-<Fontpage />
-<Contdown />
-<Date />
+<Fontpage {he} {she} {date} />
+<Contdown {date} />
+<DateSection />
 <Pictures />
 <Fest />
 <Gift />
 <Instagram />
-<Footer />
+<Footer {he} {she} />

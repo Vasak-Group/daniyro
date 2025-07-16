@@ -4,7 +4,6 @@
   import cintaRIMG from "../../assets/img/cinta02.svg";
   import loveIcon from "../../assets/icons/love.gif";
   import confettiIcon from "../../assets/icons/confetti.gif";
-  
 </script>
 
 <section
@@ -61,7 +60,7 @@
           class="absolute top-0 -left-[15px] h-full w-4"
           alt=""
         />
-        Ceremonia
+        Civil
         <img
           src={cintaRIMG}
           class="absolute top-0 -right-[15px] h-full w-4"

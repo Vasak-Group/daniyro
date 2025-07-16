@@ -1,8 +1,5 @@
 <script lang="ts">
-
-  const date = new Date("2025-11-15");
-  const he = "Dani";
-  const she = "Rocio";
+  const { he, she, date } = $props();
 </script>
 
 <!-- Portada -->
