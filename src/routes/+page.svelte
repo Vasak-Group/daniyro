@@ -10,7 +10,7 @@
 
   const he = "Daniel";
   const she = "Rocio";
-  const date = new Date("2025-11-15");
+  const date = new Date("29 Nov 2025 16:00:00 GMT-0300");
 </script>
 
 <!-- Background -->

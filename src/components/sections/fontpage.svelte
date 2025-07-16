@@ -4,32 +4,26 @@
 
 <!-- Portada -->
 <section class="w-full pb-50 bg-cover relative">
-  <picture>
-    <img
-      class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[1]"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[1]"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.png"
+    alt=""
+    loading="lazy"
+  />
 
-  <picture>
-    <img
-      class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[2]"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[2]"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.png"
+    alt=""
+    loading="lazy"
+  />
 
-  <picture>
-    <img
-      class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.png"
+    alt=""
+    loading="lazy"
+  />
 
   <div class="flex justify-center align-items-center">
     <div class="relative z-[999] w-[75%] text-center">

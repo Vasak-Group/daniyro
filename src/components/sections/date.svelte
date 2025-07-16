@@ -10,33 +10,32 @@
   class="relative pb-[20%] bg-center bg-no-repeat flex items-center justify-center bg-white pt-30"
   style="background-image: url({linesIMG})"
 >
-  <img src="{linesIMG}" alt="Decorative lines" class="absolute top-0 left-0 w-full h-auto mt-30" />
-  <picture>
-    <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    src={linesIMG}
+    alt="Decorative lines"
+    class="absolute top-0 left-0 w-full h-auto mt-30"
+  />
 
-  <picture>
-    <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
+    alt=""
+    loading="lazy"
+  />
 
-  <picture>
-    <img
-      class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
-      alt=""
-      loading="lazy"
-    />
-  </picture>
+  <img
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
+    alt=""
+    loading="lazy"
+  />
+
+  <img
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
+    alt=""
+    loading="lazy"
+  />
 
   <div class="flex flex-wrap px-6 md:px-24 w-full z-10">
     <div
@@ -45,11 +44,7 @@
       <div
         class="w-[175px] h-[175px] mx-5 bg-[#f5f5f5] rounded-full flex items-center justify-center p-5 shadow-xl"
       >
-        <img
-          src={loveIcon}
-          class="w-[100px] h-auto"
-          alt="Love icon"
-        />
+        <img src={loveIcon} class="w-[100px] h-auto" alt="Love icon" />
       </div>
 
       <h3
@@ -119,11 +114,7 @@
       <div
         class="w-[175px] h-[175px] mx-5 bg-[#f5f5f5] rounded-full flex items-center justify-center p-5 shadow-xl"
       >
-        <img
-          src={confettiIcon}
-          class="w-[100px] h-auto"
-          alt="Confetti icon"
-        />
+        <img src={confettiIcon} class="w-[100px] h-auto" alt="Confetti icon" />
       </div>
 
       <h3
