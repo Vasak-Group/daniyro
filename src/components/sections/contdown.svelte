@@ -2,6 +2,54 @@
   import counterIMG from "../../assets/img/contador.png";
   import curvasIMG from "../../assets/img/curvas01.svg";
   import heartIcon from "../../assets/icons/heart.gif";
+  import { onMount, onDestroy } from 'svelte';
+
+  const { date } = $props();
+
+  let days = $state(0);
+  let hours = $state(0);
+  let minutes = $state(0);
+  let seconds = $state(0);
+  let interval: number;
+
+  function calculateCountdown() {
+    const now = new Date().getTime();
+    const target = new Date(date).getTime();
+    const difference = target - now;
+
+    console.log(difference)
+
+    if (difference > 0) {
+      return {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+        seconds: Math.floor((difference % (1000 * 60)) / 1000)
+      };
+    } else {
+      // Si la fecha ya pasó, mostrar ceros
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+  }
+
+  function updateCountdown() {
+    const result = calculateCountdown();
+    days = result.days;
+    hours = result.hours;
+    minutes = result.minutes;
+    seconds = result.seconds;
+  }
+
+  onMount(() => {
+    updateCountdown(); // Actualizar inmediatamente
+    interval = setInterval(updateCountdown, 1000); // Actualizar cada segundo
+  });
+
+  onDestroy(() => {
+    if (interval) {
+      clearInterval(interval);
+    }
+  });
 </script>
 
 <!-- Cuenta regresiva -->
@@ -28,10 +76,10 @@
             class="w-[25%] py-2 float-left border-r-2 border-[#ccc]"
           >
             <span class="font-bold text-primary inline-block w-full text-4xl"
-              >39</span
+              >{days}</span
             >
             <span class="text-secondary inline-block w-full font-light text-2xl"
-              >días</span
+              >{days > 1 ? "días" : "día"}</span
             >
           </div>
 
@@ -40,7 +88,7 @@
             class="w-[25%] py-2 float-left border-r-2 border-[#ccc]"
           >
             <span class="font-bold text-primary inline-block w-full text-4xl"
-              >22</span
+              >{hours}</span
             >
             <span class="text-secondary inline-block w-full font-light text-2xl"
               >hs</span
@@ -52,7 +100,7 @@
             class="w-[25%] py-2 float-left border-r-2 border-[#ccc]"
           >
             <span class="font-bold text-primary inline-block w-full text-4xl"
-              >49</span
+              >{minutes}</span
             >
             <span class="text-secondary inline-block w-full font-light text-2xl"
               >min</span
@@ -61,7 +109,7 @@
 
           <div id="segundos" class="w-[25%] py-2 float-left no-border">
             <span class="font-bold text-primary inline-block w-full text-4xl"
-              >21</span
+              >{seconds}</span
             >
             <span class="text-secondary inline-block w-full font-light text-2xl"
               >seg</span
