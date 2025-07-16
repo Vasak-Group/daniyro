@@ -3,28 +3,6 @@
   import musicIcon from "../../assets/icons/music.gif";
   import dressIcon from "../../assets/icons/kimono.gif";
   import infoIcon from "../../assets/icons/document.gif";
-
-  const items = [
-    {
-      title: "Música",
-      description:
-        "¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?",
-      buttonText: "Sugerir canción",
-      iconSrc: musicIcon,
-    },
-    {
-      title: "Dress Code",
-      description: "Una orientación para tu vestuario",
-      buttonText: "Ver Más",
-      iconSrc: dressIcon,
-    },
-    {
-      title: "Tips y Notas",
-      description: "Información adicional para tener en cuenta",
-      buttonText: "+ Info",
-      iconSrc: infoIcon,
-    },
-  ];
 </script>
 
 <section
@@ -49,23 +27,71 @@
     </div>
 
     <div class="flex flex-wrap content-center justify-center">
-      {#each items as item}
-        <div class="mt-14 px-8 w-[420px]">
-          <div
-            class="px-6 py-12 bg-[#f5f5f5] shadow-lg rounded-2xl min-h-[400px] flex flex-col justify-between items-center"
+      <div class="mt-14 px-8 w-[420px]">
+        <div
+          class="px-6 py-12 bg-[#f5f5f5] shadow-lg rounded-2xl min-h-[400px] flex flex-col justify-between items-center"
+        >
+          <h3 class="font-bold text-primary text-2xl mb-2">Música</h3>
+          <img
+            class="w-auto h-[70px] mb-4"
+            src={musicIcon}
+            alt="Música"
+            loading="lazy"
+          />
+          <p class="text-secondary font-normal">
+            ¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?
+          </p>
+          <a
+            href="https://open.spotify.com/playlist/5YfUrhlal1kB4IBHLFpQDX?si=MDvPtqgTTtG8dOF_ae4uFg&utm_source=whatsapp"
+            class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
+            >Sugerir canción</a
           >
-            <h3 class="font-bold text-primary text-2xl mb-2">{item.title}</h3>
-            <img
-              class="w-auto h-[70px] mb-4"
-              src={item.iconSrc}
-              alt={item.title}
-              loading="lazy"
-            />
-            <p class="text-secondary font-normal">{item.description}</p>
-            <button class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]">{item.buttonText}</button>
-          </div>
         </div>
-      {/each}
+      </div>
+
+      <div class="mt-14 px-8 w-[420px]">
+        <div
+          class="px-6 py-12 bg-[#f5f5f5] shadow-lg rounded-2xl min-h-[400px] flex flex-col justify-between items-center"
+        >
+          <h3 class="font-bold text-primary text-2xl mb-2">Dress Code</h3>
+          <img
+            class="w-auto h-[70px] mb-4"
+            src={dressIcon}
+            alt="Dress Code"
+            loading="lazy"
+          />
+          <p class="text-secondary font-normal">
+            Una orientación para tu vestuario
+          </p>
+          <button
+            class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
+            >Ver Más</button
+          >
+        </div>
+      </div>
+
+      <div class="mt-14 px-8 w-[420px]">
+        <div
+          class="px-6 py-12 bg-[#f5f5f5] shadow-lg rounded-2xl min-h-[400px] flex flex-col justify-between items-center"
+        >
+          <h3 class="font-bold text-primary text-2xl mb-2">
+            Confirmar asistencia
+          </h3>
+          <img
+            class="w-auto h-[70px] mb-4"
+            src={infoIcon}
+            alt="Confirmar asistencia"
+            loading="lazy"
+          />
+          <p class="text-secondary font-normal">
+            Confirma tu asistencia a la fiesta
+          </p>
+          <button
+            class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
+            >Confirmar</button
+          >
+        </div>
+      </div>
     </div>
   </div>
 </section>
