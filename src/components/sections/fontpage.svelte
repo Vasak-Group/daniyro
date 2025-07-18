@@ -26,7 +26,7 @@
   />
 
   <div class="flex justify-center align-items-center">
-    <div class="relative z-[999] w-[75%] text-center">
+    <div class="relative z-40 w-[75%] text-center">
       <div class="pt-44">
         <span
           class="text-primary table no-wrap w-full font-light text-2xl before:content-[''] before:relative before:left-[20%] before:border-t-[1px] before:w-[15%] before:top-[0.9em] before:table-cell after:content-[''] after:border-t-[1px] after:relative after:right-[20%] after:w-[15%] after:top-[0.9em] after:table-cell"

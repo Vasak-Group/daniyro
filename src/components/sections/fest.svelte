@@ -3,6 +3,10 @@
   import musicIcon from "../../assets/icons/music.gif";
   import dressIcon from "../../assets/icons/kimono.gif";
   import infoIcon from "../../assets/icons/document.gif";
+
+  import DressModal from "../modals/dressModal.svelte";
+
+  let isOpenDressModal = false;
 </script>
 
 <section
@@ -65,6 +69,7 @@
           </p>
           <button
             class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
+            on:click={() => (isOpenDressModal = true)}
             >Ver Más</button
           >
         </div>
@@ -95,3 +100,7 @@
     </div>
   </div>
 </section>
+
+{#if isOpenDressModal}
+  <DressModal bind:isOpen={isOpenDressModal} />
+{/if}
