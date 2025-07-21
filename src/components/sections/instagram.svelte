@@ -23,12 +23,12 @@
     </div>
 
     <div class="w-full text-center">
-      <a target="_blank" href="https://www.instagram.com/" class="mb-10 font-bold text-secondary lowercase text-6xl inline-block"
+      <a target="_blank" href="https://www.instagram.com/explore/search/keyword/?q=%23daniyro" class="mb-10 font-bold text-secondary lowercase text-6xl inline-block"
         >{hashtag}</a
       >
     </div>
 
-    <a target="_blank" href="https://www.instagram.com/" class="bg-tertiary w-auto text-white uppercase rounded-full font-bold px-6 py-4 text-[15px] mt-8 inline-block mb-16"
+    <a target="_blank" href="https://www.instagram.com/explore/search/keyword/?q=%23daniyro" class="bg-tertiary w-auto text-white uppercase rounded-full font-bold px-6 py-4 text-[15px] mt-8 inline-block mb-16"
       >Ver en Instagram</a
     >
   </div>
