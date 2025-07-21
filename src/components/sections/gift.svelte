@@ -1,6 +1,9 @@
 <script lang="ts">
   import curvasIMG from "../../assets/img/curvas01.svg";
   import giftIcon from "../../assets/icons/gift.gif";
+  import GiftModal from "../modals/giftModal.svelte";
+
+  let isOpenGiftModal = false;
 </script>
 
 <section
@@ -54,10 +57,14 @@
       />
     </div>
 
-    <a
-      href="#"
+    <button
+      on:click={() => (isOpenGiftModal = true)}
       class="bg-tertiary w-auto text-white uppercase rounded-full font-bold px-6 py-4 text-[15px] mt-8 inline-block"
-      >Ver más</a
+      >Ver más</button
     >
   </div>
 </section>
+
+{#if isOpenGiftModal}
+  <GiftModal bind:isOpen={isOpenGiftModal} />
+{/if}
