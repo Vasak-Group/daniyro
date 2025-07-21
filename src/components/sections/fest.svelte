@@ -47,6 +47,8 @@
           </p>
           <a
             href="https://open.spotify.com/playlist/5YfUrhlal1kB4IBHLFpQDX?si=MDvPtqgTTtG8dOF_ae4uFg&utm_source=whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
             class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
             >Sugerir canción</a
           >
@@ -91,9 +93,12 @@
           <p class="text-secondary font-normal">
             Confirma tu asistencia a la fiesta
           </p>
-          <button
+          <a
+            href="https://wa.me/5491170165805?text=Hola%20Ro!%20Queremos%20confirmarte%20nuestra%20asistencia%20a%20tu%20boda,%20estamos%20contentos%20de%20poder%20pasar%20este%20hermoso%20momento%20con%20ustedes..."
+            target="_blank"
+            rel="noopener noreferrer"
             class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
-            >Confirmar</button
+            >Confirmar</a
           >
         </div>
       </div>
