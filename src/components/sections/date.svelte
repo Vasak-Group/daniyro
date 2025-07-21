@@ -140,7 +140,9 @@
             Sábado 20 de Octubre - 18hs
           </p>
           <a
-            href="#"
+            href="https://calendar.app.google/dRhUE5PjBmqTTqEj8"
+            target="_blank"
+            rel="noopener noreferrer"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
@@ -154,7 +156,9 @@
             Quinta San José Eventos
           </p>
           <a
-            href="#"
+            href="https://wa.me/5491170165805?text=Hola%20Ro!%20Queremos%20confirmarte%20nuestra%20asistencia%20a%20tu%20boda,%20estamos%20contentos%20de%20poder%20pasar%20este%20hermoso%20momento%20con%20ustedes..."
+            target="_blank"
+            rel="noopener noreferrer"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
