@@ -1,4 +1,6 @@
 <script lang="ts">
+  import comillasInicio from "../../assets/img/comilla-apertura.svg";
+  import comillasFin from "../../assets/img/comilla-cierre.svg";
   const { he, she, date } = $props();
 </script>
 
@@ -50,17 +52,13 @@
         <p>
           <img
             class="inline-block w-8 h-8 my-2.5"
-            src="https://fixdate.io/modelo-invitacion/65/img/comilla-apertura.svg"
+            src={comillasInicio}
             alt=""
           /> <br />
 
           El amor es la razón de este día <br />
 
-          <img
-            class="inline-block w-8 h-8 my-2.5"
-            src="https://fixdate.io/modelo-invitacion/65/img/comilla-cierre.svg"
-            alt=""
-          />
+          <img class="inline-block w-8 h-8 my-2.5" src={comillasFin} alt="" />
         </p>
       </div>
     </div>
