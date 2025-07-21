@@ -4,6 +4,9 @@
   import cintaRIMG from "../../assets/img/cinta02.svg";
   import loveIcon from "../../assets/icons/love.gif";
   import confettiIcon from "../../assets/icons/confetti.gif";
+  import grupo02aIMG from "../../assets/img/Grupo02_a.png";
+  import grupo02bIMG from "../../assets/img/Grupo02_b.png";
+  import grupo02cIMG from "../../assets/img/Grupo02_c.png";
 </script>
 
 <section
@@ -18,26 +21,28 @@
 
   <img
     class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
+    src={grupo02aIMG}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
+    src={grupo02bIMG}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
+    src={grupo02cIMG}
     alt=""
     loading="lazy"
   />
 
-  <div class="flex flex-wrap px-6 md:px-24 w-full z-10 content-center justify-center">
+  <div
+    class="flex flex-wrap px-6 md:px-24 w-full z-10 content-center justify-center"
+  >
     <!--<div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
     >

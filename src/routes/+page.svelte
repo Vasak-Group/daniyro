@@ -7,6 +7,7 @@
   import Gift from "../components/sections/gift.svelte";
   import Instagram from "../components/sections/instagram.svelte";
   import Pictures from "../components/sections/pictures.svelte";
+  import fondoIMG from "../assets/img/fondo.webp";
 
   const he = "Daniel";
   const she = "Rocio";
@@ -17,7 +18,7 @@
 <div class="h-screen w-screen fixed top-0 left-0 z-[-100] overflow-hidden">
   <img
     class="h-screen w-screen object-cover absolute top-0 left-0 z-[-100]"
-    src="https://fixdate.io/modelo-invitacion/65/img/fondo.webp"
+    src={fondoIMG}
     alt="Background paper"
   />
 </div>

@@ -1,6 +1,10 @@
 <script lang="ts">
   import comillasInicio from "../../assets/img/comilla-apertura.svg";
   import comillasFin from "../../assets/img/comilla-cierre.svg";
+  import grupo01a from "../../assets/img/Grupo01_a.png";
+  import grupo01b from "../../assets/img/Grupo01_b.png";
+  import grupo01c from "../../assets/img/Grupo01_c.png";
+
   const { he, she, date } = $props();
 </script>
 
@@ -8,21 +12,21 @@
 <section class="w-full pb-50 bg-cover relative">
   <img
     class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[1]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_a.png"
+    src={grupo01a}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto z-[2]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_b.png"
+    src={grupo01b}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-90 h-auto -top-22 left-0 right-0 mx-auto"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo01_c.png"
+    src={grupo01c}
     alt=""
     loading="lazy"
   />

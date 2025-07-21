@@ -2,6 +2,9 @@
   import curvasIMG from "../../assets/img/curvas01.svg";
   import giftIcon from "../../assets/icons/gift.gif";
   import GiftModal from "../modals/giftModal.svelte";
+  import grupo02aIMG from "../../assets/img/Grupo02_a.png";
+  import grupo02bIMG from "../../assets/img/Grupo02_b.png";
+  import grupo02cIMG from "../../assets/img/Grupo02_c.png";
 
   let isOpenGiftModal = false;
 </script>
@@ -17,21 +20,21 @@
 
   <img
     class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_a.png"
+    src={grupo02aIMG}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_b.png"
+    src={grupo02bIMG}
     alt=""
     loading="lazy"
   />
 
   <img
     class="absolute w-[200px] h-auto top-[120px] -left-[30px]"
-    src="https://fixdate.io/modelo-invitacion/65/img/Grupo02_c.png"
+    src={grupo02cIMG}
     alt=""
     loading="lazy"
   />

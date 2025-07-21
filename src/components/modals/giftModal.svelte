@@ -1,5 +1,6 @@
 <script lang="ts">
   import giftIcon from "../../assets/icons/gift.gif";
+  import group04IMG from "../../assets/img/Grupo04.png";
 
   export let isOpen: boolean;
 </script>
@@ -17,7 +18,7 @@
   >
     <img
       class="absolute bottom-0 top-0 left-0 right-0 m-auto w-64 h-auto pb-68"
-      src="https://fixdate.io/modelo-invitacion/65/img/Grupo04.png"
+      src={group04IMG}
       alt=""
       loading="lazy"
     />
