@@ -4,10 +4,9 @@
 
   import curvasIMG from "../../assets/img/curvas02.svg";
   import cameraIcon from "../../assets/icons/camera.gif";
-  import carousel01 from "../../assets/img/carousel/1.jpg";
+  import carousel01 from "../../assets/img/carousel/1.png";
   import carousel02 from "../../assets/img/carousel/2.jpg";
   import carousel03 from "../../assets/img/carousel/3.jpg";
-  import carousel04 from "../../assets/img/carousel/4.jpg";
 
   const options = {
     loop: true,
@@ -21,7 +20,6 @@
     { src: carousel01, alt: "Imagen 1" },
     { src: carousel02, alt: "Imagen 2" },
     { src: carousel03, alt: "Imagen 3" },
-    { src: carousel04, alt: "Imagen 4" },
   ];
 </script>
 
