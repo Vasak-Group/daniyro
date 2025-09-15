@@ -43,7 +43,7 @@
   <div
     class="flex flex-wrap px-6 md:px-24 w-full z-10 content-center justify-center"
   >
-    <!--<div
+    <div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
     >
       <div
@@ -72,10 +72,12 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Día</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Sábado 15 de Mayo - 17hs
+            Sábado 28 de Noviembre - 10:50hs
           </p>
           <a
             href="#"
+            target="_blank"
+            rel="noopener noreferrer"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
@@ -86,10 +88,12 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Lugar</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Parroquia Nuestra Señora de Lujan
+            Centro Cívico La Humanitaria
           </p>
           <a
-            href="#"
+            href="https://wa.me/5491170165805?text=Hola%20Ro!%20Queremos%20confirmarte%20nuestra%20asistencia%20a%20tu%20boda,%20estamos%20contentos%20de%20poder%20pasar%20este%20hermoso%20momento%20con%20ustedes..."
+            target="_blank"
+            rel="noopener noreferrer"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
@@ -100,10 +104,12 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Dirección</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Av. Pergamino 203 - BsAs
+            Diagonal Lisandro de la Torre 5198
           </p>
           <a
-            href="#"
+            href="https://maps.app.goo.gl/JKsMLFYe6xCdSPv16"
+            target="_blank"
+            rel="noopener noreferrer"
             class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
             tabindex="0"
           >
@@ -111,7 +117,7 @@
           </a>
         </div>
       </div>
-    </div> -->
+    </div> 
 
     <div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
@@ -142,7 +148,7 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Día</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Sábado 20 de Octubre - 18hs
+            Sábado 29 de Noviembre - 18hs
           </p>
           <a
             href="https://calendar.app.google/dRhUE5PjBmqTTqEj8"
