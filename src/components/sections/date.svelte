@@ -20,21 +20,21 @@
   />
 
   <img
-    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px] hidden lg:block"
     src={grupo02aIMG}
     alt=""
     loading="lazy"
   />
 
   <img
-    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px] hidden lg:block"
     src={grupo02bIMG}
     alt=""
     loading="lazy"
   />
 
   <img
-    class="absolute w-[200px] h-auto top-[280px] -left-[30px]"
+    class="absolute w-[200px] h-auto top-[280px] -left-[30px] hidden lg:block"
     src={grupo02cIMG}
     alt=""
     loading="lazy"

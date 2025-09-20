@@ -60,7 +60,7 @@
 
         <ul class="list-disc list-inside text-left ml-6">
           <li><b>Alias:</b> Daniyro</li>
-          <li><b>CBU:</b> 4530000800017240220671t</li>
+          <li><b>CBU:</b> 4530000800017240220671</li>
         </ul>
       </div>
     </div>

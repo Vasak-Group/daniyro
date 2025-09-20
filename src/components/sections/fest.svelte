@@ -25,8 +25,8 @@
         Fiesta
       </h2>
       <p class="w-full text-primary inline-block text-xl font-normal">
-        Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en
-        cuenta.
+        Hagamos juntos una fiesta épica. Acá van algunos detalles a tener en
+        cuenta
       </p>
     </div>
 
@@ -71,8 +71,7 @@
           </p>
           <button
             class="w-[85%] bg-tertiary text-white uppercase rounded-full font-bold px-6 py-4 text-[15px]"
-            on:click={() => (isOpenDressModal = true)}
-            >Ver Más</button
+            on:click={() => (isOpenDressModal = true)}>Ver Más</button
           >
         </div>
       </div>

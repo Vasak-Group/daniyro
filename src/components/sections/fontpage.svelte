@@ -34,17 +34,15 @@
   <div class="flex justify-center align-items-center">
     <div class="relative z-40 w-[75%] text-center">
       <div class="pt-44">
-        <span
-          class="text-primary table no-wrap w-full font-light text-2xl before:content-[''] before:relative before:left-[20%] before:border-t-[1px] before:w-[15%] before:top-[0.9em] before:table-cell after:content-[''] after:border-t-[1px] after:relative after:right-[20%] after:w-[15%] after:top-[0.9em] after:table-cell"
-        >
+        <span class="text-primary table no-wrap w-full font-light text-2xl">
           {date.getDate()}.{date.getMonth() + 1}.{date.getFullYear()}
         </span>
         <h1
-          class="text-primary text-[130px] leading-[110px] font-light mb-0 text-center font-heading"
+          class="text-primary text-[130px] leading-[110px] font-light mb-0 text-center font-heading flex flex-col justify-center items-center lg:flex-row"
         >
           {he}
           <span
-            class="h-15 w-15 rounded-full bg-primary text-white inline-block text-[40px] font-light leading-[60px]"
+            class="h-15 w-15 rounded-full bg-primary text-white text-[40px] font-light leading-[60px] lg:mx-4"
             >&amp;</span
           >
           {she}
