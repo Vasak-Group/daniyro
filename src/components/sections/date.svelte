@@ -43,81 +43,6 @@
   <div
     class="flex flex-wrap px-6 md:px-24 w-full z-10 content-center justify-center"
   >
-    <div
-      class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
-    >
-      <div
-        class="w-[175px] h-[175px] mx-5 bg-[#f5f5f5] rounded-full flex items-center justify-center p-5 shadow-xl"
-      >
-        <img src={loveIcon} class="w-[100px] h-auto" alt="Love icon" />
-      </div>
-
-      <h3
-        class="font-heading text-white bg-secondary border-y-4 border-secondary inline-block relative font-normal text-5xl min-w-[60%] mt-8"
-      >
-        <img
-          src={cintaLIMG}
-          class="absolute top-0 -left-[15px] h-full w-4"
-          alt=""
-        />
-        Civil
-        <img
-          src={cintaRIMG}
-          class="absolute top-0 -right-[15px] h-full w-4"
-          alt=""
-        />
-      </h3>
-
-      <div class="mt-8">
-        <div class="mb-12">
-          <h6 class="font-bold text-secondary text-2xl mb-2">Día</h6>
-          <p class="font-normal text-secondary text-xl mb-4">
-            Sábado 28 de Noviembre - 10:50hs
-          </p>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
-            tabindex="0"
-          >
-            Agendar
-          </a>
-        </div>
-
-        <div class="mb-12">
-          <h6 class="font-bold text-secondary text-2xl mb-2">Lugar</h6>
-          <p class="font-normal text-secondary text-xl mb-4">
-            Centro Cívico La Humanitaria
-          </p>
-          <a
-            href="https://wa.me/5491170165805?text=Hola%20Ro!%20Queremos%20confirmarte%20nuestra%20asistencia%20a%20tu%20boda,%20estamos%20contentos%20de%20poder%20pasar%20este%20hermoso%20momento%20con%20ustedes..."
-            target="_blank"
-            rel="noopener noreferrer"
-            class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
-            tabindex="0"
-          >
-            Confirmar asistencia
-          </a>
-        </div>
-
-        <div class="mb-12">
-          <h6 class="font-bold text-secondary text-2xl mb-2">Dirección</h6>
-          <p class="font-normal text-secondary text-xl mb-4">
-            Diagonal Lisandro de la Torre 5198
-          </p>
-          <a
-            href="https://maps.app.goo.gl/JKsMLFYe6xCdSPv16"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="mt-1 inline-block bg-tertiary text-white font-bold py-2 px-12 rounded-full uppercase"
-            tabindex="0"
-          >
-            ¿Cómo llegar?
-          </a>
-        </div>
-      </div>
-    </div> 
 
     <div
       class="text-center flex flex-col items-center justify-center w-[100%] md:w-[50%]"
@@ -148,7 +73,7 @@
         <div class="mb-12">
           <h6 class="font-bold text-secondary text-2xl mb-2">Día</h6>
           <p class="font-normal text-secondary text-xl mb-4">
-            Sábado 29 de Noviembre - 18hs
+            Sábado 29 de Noviembre - 18:20 hs
           </p>
           <a
             href="https://calendar.app.google/dRhUE5PjBmqTTqEj8"
