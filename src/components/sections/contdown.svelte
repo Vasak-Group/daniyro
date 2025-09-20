@@ -17,8 +17,6 @@
     const target = new Date(date).getTime();
     const difference = target - now;
 
-    console.log(difference)
-
     if (difference > 0) {
       return {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
